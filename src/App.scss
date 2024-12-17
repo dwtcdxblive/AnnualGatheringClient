@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "DIN";
+  src: url('./assets/fonts/DIN-Medium.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #344B61;
+}
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  height: 80vh;
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container {
+  background: #344B61;
+}
+.logo{
+  width: 10rem;
+  padding: 3rem 0 0 3rem;
+  display: none;
+}
+.confetti{
+  transition: ease-in-out 10000ms;
+}
